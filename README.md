@@ -1,5 +1,5 @@
 # --[Your Very First Lab]--
-### Hello Universe
+## Setup Instructions + Hello Universe (lab)
 
 ![Theo](http://i.imgur.com/ZNL73LF.jpg)  
 
@@ -279,6 +279,7 @@ Note: There are some labs that include tests (the one you're about to complete b
 
 ---
 
+# Hello Universe - Lab
 
 ## Learning Objectives
 
