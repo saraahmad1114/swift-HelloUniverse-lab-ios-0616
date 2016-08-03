@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BA090BCA669F3D06B8DF8C9 /* Pods_HelloUniverseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF865B6142243E1B679BF8BC /* Pods_HelloUniverseTests.framework */; };
 		5B261EA41D5225B00057F831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B261EA31D5225B00057F831 /* AppDelegate.swift */; };
 		5B261EA61D5225B00057F831 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B261EA51D5225B00057F831 /* ViewController.swift */; };
 		5B261EA91D5225B00057F831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B261EA71D5225B00057F831 /* Main.storyboard */; };
 		5B261EAB1D5225B00057F831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B261EAA1D5225B00057F831 /* Assets.xcassets */; };
 		5B261EAE1D5225B00057F831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B261EAC1D5225B00057F831 /* LaunchScreen.storyboard */; };
 		5B261EB91D5225B00057F831 /* HelloUniverseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B261EB81D5225B00057F831 /* HelloUniverseTests.swift */; };
+		94D7A598E5EA179092B26426 /* Pods_HelloUniverse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2EBF956CA761A828E0BE2D4 /* Pods_HelloUniverse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B6669A58490544F82509EE5 /* Pods-HelloUniverseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloUniverseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloUniverseTests/Pods-HelloUniverseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		112D9E5951C37CC1429EF5E4 /* Pods-HelloUniverseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloUniverseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloUniverseTests/Pods-HelloUniverseTests.release.xcconfig"; sourceTree = "<group>"; };
+		4B265A6801C8FB606395BCB0 /* Pods-HelloUniverse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloUniverse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloUniverse/Pods-HelloUniverse.debug.xcconfig"; sourceTree = "<group>"; };
 		5B261EA01D5225B00057F831 /* HelloUniverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloUniverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B261EA31D5225B00057F831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B261EA51D5225B00057F831 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		5B261EB41D5225B00057F831 /* HelloUniverseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloUniverseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B261EB81D5225B00057F831 /* HelloUniverseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloUniverseTests.swift; sourceTree = "<group>"; };
 		5B261EBA1D5225B00057F831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2EBF956CA761A828E0BE2D4 /* Pods_HelloUniverse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloUniverse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3253BE278F0A62500DE08C2 /* Pods-HelloUniverse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloUniverse.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloUniverse/Pods-HelloUniverse.release.xcconfig"; sourceTree = "<group>"; };
+		DF865B6142243E1B679BF8BC /* Pods_HelloUniverseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloUniverseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94D7A598E5EA179092B26426 /* Pods_HelloUniverse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BA090BCA669F3D06B8DF8C9 /* Pods_HelloUniverseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				5B261EA21D5225B00057F831 /* HelloUniverse */,
 				5B261EB71D5225B00057F831 /* HelloUniverseTests */,
 				5B261EA11D5225B00057F831 /* Products */,
+				8AA2A97DBDED98536407D4DD /* Pods */,
+				752DB9CDBE8C0657937BAA12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = HelloUniverseTests;
 			sourceTree = "<group>";
 		};
+		752DB9CDBE8C0657937BAA12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2EBF956CA761A828E0BE2D4 /* Pods_HelloUniverse.framework */,
+				DF865B6142243E1B679BF8BC /* Pods_HelloUniverseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AA2A97DBDED98536407D4DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B265A6801C8FB606395BCB0 /* Pods-HelloUniverse.debug.xcconfig */,
+				D3253BE278F0A62500DE08C2 /* Pods-HelloUniverse.release.xcconfig */,
+				0B6669A58490544F82509EE5 /* Pods-HelloUniverseTests.debug.xcconfig */,
+				112D9E5951C37CC1429EF5E4 /* Pods-HelloUniverseTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B261EBD1D5225B00057F831 /* Build configuration list for PBXNativeTarget "HelloUniverse" */;
 			buildPhases = (
+				8004B6085DA63EAC8C8856C1 /* [CP] Check Pods Manifest.lock */,
 				5B261E9C1D5225B00057F831 /* Sources */,
 				5B261E9D1D5225B00057F831 /* Frameworks */,
 				5B261E9E1D5225B00057F831 /* Resources */,
+				DACDF4DFFED7A44DCF8F9703 /* [CP] Embed Pods Frameworks */,
+				7580CC739665B5C9BCC25C30 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B261EC01D5225B00057F831 /* Build configuration list for PBXNativeTarget "HelloUniverseTests" */;
 			buildPhases = (
+				3FB1706D9C6CD48F6D53B43A /* [CP] Check Pods Manifest.lock */,
 				5B261EB01D5225B00057F831 /* Sources */,
 				5B261EB11D5225B00057F831 /* Frameworks */,
 				5B261EB21D5225B00057F831 /* Resources */,
+				51522D2CFC494D54867F247C /* [CP] Embed Pods Frameworks */,
+				2B2B45FBBF203E6EB590FB7F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +229,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B2B45FBBF203E6EB590FB7F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloUniverseTests/Pods-HelloUniverseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FB1706D9C6CD48F6D53B43A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		51522D2CFC494D54867F247C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloUniverseTests/Pods-HelloUniverseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7580CC739665B5C9BCC25C30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloUniverse/Pods-HelloUniverse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8004B6085DA63EAC8C8856C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DACDF4DFFED7A44DCF8F9703 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloUniverse/Pods-HelloUniverse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B261E9C1D5225B00057F831 /* Sources */ = {
@@ -325,6 +456,7 @@
 		};
 		5B261EBE1D5225B00057F831 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B265A6801C8FB606395BCB0 /* Pods-HelloUniverse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HelloUniverse/Info.plist;
@@ -336,6 +468,7 @@
 		};
 		5B261EBF1D5225B00057F831 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3253BE278F0A62500DE08C2 /* Pods-HelloUniverse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HelloUniverse/Info.plist;
@@ -347,6 +480,7 @@
 		};
 		5B261EC11D5225B00057F831 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B6669A58490544F82509EE5 /* Pods-HelloUniverseTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HelloUniverseTests/Info.plist;
@@ -359,6 +493,7 @@
 		};
 		5B261EC21D5225B00057F831 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112D9E5951C37CC1429EF5E4 /* Pods-HelloUniverseTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HelloUniverseTests/Info.plist;
@@ -388,6 +523,7 @@
 				5B261EBF1D5225B00057F831 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B261EC01D5225B00057F831 /* Build configuration list for PBXNativeTarget "HelloUniverseTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +532,7 @@
 				5B261EC21D5225B00057F831 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
